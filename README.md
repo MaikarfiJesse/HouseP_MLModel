@@ -1,13 +1,22 @@
-# HouseP_MLModel
-In this project, I developed the predictive power of a model trained on house price data. It deploys with flask API and uses Linear Regression to predict the price value. Deploy Machine Learning Model Using Flask to take a model from python code.
+# HouseP Prediction API
+This project implements a machine learning model to predict house prices based on various input features. The model is trained using Linear Regression on house price data and is deployed as a web application using Flask. This setup provides a practical example of how to transition a model from Python code to a live web API.
 
-If you want to more clear explonation, see my blog [House Price Prediction using Flask for Beginners](https://techyscientists.blogspot.com/2021/07/house-price-prediction-using-flask.html)
+# Requirements 
+This project is developed using Python 3.8.0 and Flask 2.0.1. All dependencies are listed in the requirements.txt file.
 
 ## Installation
-
-To run the web app on your local computer, install the required libraries. These packages are include in the requirement.txt file. This project used Python 3.8.0 and Flask 2.0.1.<br><br> Run the following command in the terminal to install the required packages.<br><br>
-
+Follow these steps to get the environment set up:
+1. Clone the repository
+git clone <https://github.com/MaikarfiJesse/HouseP_MLModel.git>
 ```
+<br>
+<br>
+
+cd <HouseP_MLModel>
+```
+<br>
+<br>
+
 pip install -r requirement.txt
 ```
 <br>
