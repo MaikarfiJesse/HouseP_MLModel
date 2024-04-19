@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request
 import numpy as np
-import pickle
+import joblib
 
 app = Flask(__name__)
-model = pickle.load(open('model.pkl', 'rb'))
+model = joblib.load(open('model.pkl', 'rb'))
 
 
 @app.route('/')
@@ -17,12 +17,12 @@ def predict():
     val2 = request.form['bathrooms']
     val3 = request.form['floors']
     val4 = request.form['yr_built']
-    arr = np.array([val1, val2, val3, val4])
-    arr = arr.astype(np.float64)
-    pred = model.predict([arr])
-
-    return render_template('index.html', data=int(pred))
-
+    
+    arr = np.array([val1, val2, val3, val4], dtype=np.float64)
+        
+        pred = model.predict(arr.reshape(1, -1))
+        
+        return render_template('index.html', data=int(pred[0]))
 
 if __name__ == '__main__':
     app.run(debug=True)
