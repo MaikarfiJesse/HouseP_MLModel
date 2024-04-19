@@ -2,6 +2,7 @@ Flask
 Werkzeug 
 numpy
 pandas
+gunicorn
 scikit-learn
 streamlit
 streamlit-option-menu
