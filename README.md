@@ -30,9 +30,9 @@ python app.py
 ## Usage
 Once the application is running, you can use it to predict house prices:
 
- Homepage: Navigate to the homepage
+ Homepage: Navigate to the homepage below to access the application.
     
-   # (https://organic-fortnight-9g57xg4vrvv39pgv-5004.app.github.dev/). 
+   # (https://spatial-kass-jesse-personal.koyeb.app/). 
 <br>
 <br>
 
