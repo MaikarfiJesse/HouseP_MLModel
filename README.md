@@ -6,16 +6,12 @@ This project is developed using Python 3.8.0 and Flask 2.0.1. All dependencies a
 
 ## Installation
 Follow these steps to get the environment set up:
-1. Clone the repository
+
+Clone the repository
 git clone <https://github.com/MaikarfiJesse/HouseP_MLModel.git>
-```
-<br>
-<br>
 
 cd <HouseP_MLModel>
-```
-<br>
-<br>
+
 
 pip install -r requirement.txt
 ```
@@ -32,6 +28,7 @@ python app.py
 <br>
 
 ## Preview
+
 <img src='https://github.com/MaikarfiJesse/HouseP_MLModel/blob/main/static/images/form.png'></img>
 <br>
 <br>
