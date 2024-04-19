@@ -30,11 +30,15 @@ python app.py
 ## Usage
 Once the application is running, you can use it to predict house prices:
 
-    Homepage: Navigate to the homepage (http://localhost:5004). The homepage provides a form to input the house features.
-    Predict: After filling out the form with the necessary house attributes (e.g., number of bedrooms, bathrooms, etc.), submit it to see the predicted house price.
+ Homepage: Navigate to the homepage
+    
+   # (https://organic-fortnight-9g57xg4vrvv39pgv-5004.app.github.dev/). 
 <br>
 <br>
 
+The homepage provides a form to input the house features.
+Predict: After filling out the form with the necessary house attributes (e.g., number of bedrooms, bathrooms, etc.), submit it to see the predicted house price.
+    
 ### Troubleshooting
     Port Already in Use: If you encounter an error stating that the port is already in use, you can specify a different port by modifying the app.run(host='0.0.0.0', port=5004) line in the app.py file.
     Dependencies Not Found: Ensure all dependencies are installed correctly as per the requirements.txt file. If problems persist, try reinstalling the dependencies.
