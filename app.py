@@ -21,7 +21,7 @@ def predict():
     arr = np.array([val1, val2, val3, val4], dtype=np.float64)
         
         pred = model.predict(arr.reshape(1, -1))
-        
+
         return render_template('index.html', data=int(pred[0]))
 
 if __name__ == '__main__':
