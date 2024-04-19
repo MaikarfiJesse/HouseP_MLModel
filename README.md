@@ -1,11 +1,8 @@
-# House-price-prediction-using-flask
-In this project, I developed the predictive power of a model trained on house price data. It deploys with flask API and uses Linear Regression to predict the price value. Deploy Machine Learning Model Using Flask to take a model from python code.
+# House Price Prediction API
+This project implements a machine learning model to predict house prices based on various input features. The model is trained using Linear Regression on house price data and is deployed as a web application using Flask. This setup provides a practical example of how to transition a model from Python code to a live web API.
 
-If you want to more clear explonation, see my blog [House Price Prediction using Flask for Beginners](https://techyscientists.blogspot.com/2021/07/house-price-prediction-using-flask.html)
-
-## Installation
-
-To run the web app on your local computer, install the required libraries. These packages are include in the requirement.txt file. This project used Python 3.8.0 and Flask 2.0.1.<br><br> Run the following command in the terminal to install the required packages.<br><br>
+# Requirements
+This project is developed using Python and Flask. All dependencies are listed in the requirements.txt file.<br><br> Run the following command in the terminal to install the required packages.<br><br>
 
 ```
 pip install -r requirement.txt
@@ -15,7 +12,7 @@ pip install -r requirement.txt
 
 ## Getting Started
 
-To run code on your computer, following command in terminal<br><br>
+To run the application on your local machine, follow these steps:<br><br>
 ```
 python app.py
 ```
@@ -23,16 +20,28 @@ python app.py
 <br>
 
 ## Preview
-<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/form.png'></img>
+<img src='https://github.com/MaikarfiJesse/HouseP_MLModel/blob/main/static/images/form.png'></img>
 <br>
 <br>
-<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/prediction.png'></img>
-<br>
-<br>
-
-## License
-MIT License
+<img src='https://github.com/MaikarfiJesse/HouseP_MLModel/blob/main/static/images/prediction.png'></img>
 <br>
 <br>
 
-### Thank you
+## Usage
+Once the application is running, you can use it to predict house prices:
+
+    Homepage: Navigate to the homepage (http://localhost:5004). The homepage provides a form to input the house features.
+    Predict: After filling out the form with the necessary house attributes (e.g., number of bedrooms, bathrooms, etc.), submit it to see the predicted house price.
+<br>
+<br>
+
+### Troubleshooting
+    Port Already in Use: If you encounter an error stating that the port is already in use, you can specify a different port by modifying the app.run(host='0.0.0.0', port=5004) line in the app.py file.
+    Dependencies Not Found: Ensure all dependencies are installed correctly as per the requirements.txt file. If problems persist, try reinstalling the dependencies.
+<br>
+<br>
+
+## Customization and Feedback
+Feel free to fork this repository or send me suggestions to improve the project. Your feedback is valuable as I continue to learn and improve the way I present and manage projects. 
+<br>
+<br>
